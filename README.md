@@ -1,9 +1,10 @@
 # GERRO RODO
 
+
+`Wtyczka do wyświetlenia informacji o rodo`
+
 ***
 
-`wtyczka do wyświetlenia informacji o rodo`
-<br>
 
 ```javascript
     var textRodo = 'info o RODO';
