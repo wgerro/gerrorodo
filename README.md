@@ -1,7 +1,7 @@
 # GERRO RODO
 
 
-`Wtyczka do wyświetlenia informacji o rodo`
+### Wtyczka do wyświetlenia informacji o rodo
 
 ***
 
