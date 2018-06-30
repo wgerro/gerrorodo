@@ -3,6 +3,7 @@
 
 ### Wtyczka do wyświetlenia informacji o rodo
 
+<hr>
 
 ```javascript
     var textRodo = 'info o RODO';
