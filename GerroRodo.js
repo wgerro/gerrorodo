@@ -14,6 +14,7 @@ class GerroRodo {
         this.elementTextClass = options.elementTextClass === undefined ? '.gerro-rodo-text' : options.elementTextClass;
         this.nameCookie = options.elementTextClass === undefined ? 'GerroRodoCookie' : options.nameCookie;
         this.description = textRodo;
+        this.trigger = typeof options.trigger === 'function' ? options.trigger : '';
     }
 
     /*
@@ -51,6 +52,9 @@ class GerroRodo {
      */
     btnAccept () {
         this.addItemToLocal();
+        if(typeof this.trigger === 'function') {
+            this.trigger();
+        }
     }
 
     /*
