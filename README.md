@@ -14,7 +14,11 @@
         console.log('zaladowano plugin tawks');
     }
 
-    var rodo = new GerroRodo('#modal-rodo', textRodo);
+    var rodo = new GerroRodo('#modal-rodo', textRodo, {
+        trigger: function() {
+            $('#modal-id').modal('hide');
+        }
+    });
     rodo.addPlugin('pluginGoogle', '#check-google');
     rodo.addPlugin('pluginTawks', '#check-tawk');
 
